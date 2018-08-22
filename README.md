@@ -1,3 +1,3 @@
 # citico-react
 
-This is demo React Native Notes application for Citico Xamarin Developer position.  
+This is my first React Native application - React Native Notes application for Citico Xamarin Developer position.  
