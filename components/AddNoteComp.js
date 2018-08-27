@@ -8,6 +8,9 @@ import {
   Alert,
 } from 'react-native';
 
+/* Globals */
+import Globals from '../Globals';
+
 /* Elements */
 import { Button, CheckBox } from 'react-native-elements';
 
@@ -44,7 +47,7 @@ export default class AddNoteComp extends Component {
     newNote.push(noteData);
 
     await AsyncStorage.setItem(key, JSON.stringify(newNote))
-      .then(() => {
+      .then(() => { 
         alert('Note was saved successfully!');
       })
       .catch(() => {

@@ -9,6 +9,9 @@ import {
   TouchableHighlight,
 } from 'react-native';
 
+/* Globals */
+import Globals from './Globals';
+
 /* Elements */
 import {
   Card, 
